@@ -1,12 +1,28 @@
 import './App.css';
 import Navi from './components/Navi';
+import Trips from './components/Trips';
+import React from 'react';
+import data from './data';
 
-function App() {
-  return (
-    <div className="App">
-      <Navi />
-    </div>
-  );
+
+
+export default function App(){
+  const trips = data.map(item =>{
+      return (
+          <Trips
+              item = {item}
+          />
+
+      )
+
+  })
+    return  (
+        <div>
+          <Navi />
+          {trips}
+        </div>
+
+    )
 }
 
-export default App;
+

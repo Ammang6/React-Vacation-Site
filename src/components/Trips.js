@@ -1,12 +1,14 @@
 import React from 'react'
 
-const Trips = () => {
+const Trips = (props) => {
   return (
-    <div>
-        <div>
+    
+        <div className='my'>
+            <img className='placeimage' src ={`${props.item.imageUrl}`}></img>
             <img></img>
+            <p>{props.item.location}</p>
         </div>
-    </div>
+  
   )
 }
 
