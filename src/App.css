@@ -22,9 +22,9 @@
 
 }
 .my{
-  overflow: auto;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-   background-color: aqua;
    width: 470px;
    height: 168px;
    margin-left: auto;
@@ -35,4 +35,45 @@
   width: 125px;
   height: 168px;
   border-radius: 5px;
+  
+}
+.text{
+    margin-bottom: 115px;
+    margin-left: 5px;
+}
+.loc{
+  height: 9.55px;
+  font-size: 10.24px;
+  width: 7;
+  margin-bottom: 115px;
+  margin-left: 18px;
+}
+.link{
+  margin-bottom: 115px;
+  margin-left: 10px;
+  color: #918E9B;
+}
+.title{
+  right: 650px;
+  margin-bottom: 70px;
+  position: absolute;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text{
+
+}
+.date{
+  left: 900px;
+
+  margin-bottom: 20px;
+  position:absolute ;
+  font-size: 10.24px;
+}
+.description{
+  font-size: 10.24px;
+  position: absolute;
+  margin-bottom: -50px;
+  margin-left: 145px;
+  margin-right: 145px;
 }

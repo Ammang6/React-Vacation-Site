@@ -20,6 +20,7 @@ export default function App(){
         <div>
           <Navi />
           {trips}
+          
         </div>
 
     )
